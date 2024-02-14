@@ -1,0 +1,52 @@
+/* html propuesta*/
+
+.parrafo-titu-propuesta{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    word-spacing: 5px;
+    font-weight: bolder;
+    margin: 20px 20px;
+    padding: 15px 15px;
+}
+
+.propuesta{
+    display: flex;
+    justify-content: center;
+    margin: 20px 20px;
+}
+.propuesta1{
+    grid-area: 'propuesta1';
+}
+
+.propuesta2{
+    grid-area: "propuesta2";
+}
+.titulosPropuestas{
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 30px;
+    margin: 20px 20px;
+    padding: 15px 15px;
+
+}
+.parrafoPropuesta{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    word-spacing: 5px;
+    font-weight: bolder;
+    margin: 20px 20px;
+    padding: 15px 15px;
+}
+.imagenMenu1{
+    grid-area:'imagenMenu1';
+    display: flex;
+    justify-content: center;
+}
+.fotoM{
+    box-shadow: 1px 1px 1px 2px;
+}
+.imagenMenu2{
+    grid-area:'imagenMenu1';
+    display: flex;
+    justify-content: center;
+}

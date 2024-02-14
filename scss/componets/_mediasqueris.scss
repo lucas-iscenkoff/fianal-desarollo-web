@@ -1,0 +1,88 @@
+/* media */
+
+@media (min-width: 320px) and (max-width: 480px){
+    .parrafo{
+        font-family: 'Indie Flower', cursive;
+        font-size: 12px;
+    }
+    /* propuesta */
+    .contentPropuesta{
+        margin: 20px 20px;
+        display: grid;
+        grid-template-columns:repeat(1, 100%);
+        grid-template-rows: auto;
+        gap: 5px;
+        grid-template-areas: 
+        'propuesta1' 
+        'imagenMenu1'
+        'propuesta2' 
+        'imagenMenu2';
+    }
+    /*recetas*/
+    .conteinerPaulova{
+        display: grid;
+        grid-template-columns: repeat(1,100%);
+        grid-template-rows: auto;
+        gap: 15px;
+        grid-template-areas: 
+        'p1'
+        'parrafoPaulova' 
+        'photoPaulova'
+        'p2' 
+        'ulrescetas'
+        'p3' 
+        'olrecetas';
+        
+    }
+    
+    /* index*/
+    .carrucelf{
+        height: auto;
+        width: 99%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1480px){
+    .contentPropuesta{
+        margin: 20px 20px;
+        display: grid;
+        grid-template-columns:repeat(2, 1fr);
+        grid-template-rows: auto;
+        gap: 5px;
+        grid-template-areas: 
+        'propuesta1 imagenMenu1'
+        'propuesta2 imagenMenu2';
+    }
+    /*recetas*/
+    .conteinerPaulova{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+        gap: 15px;
+        grid-template-areas: 
+        'p1 p1'
+        'parrafoPaulova photoPaulova'
+        'p2 ulrescetas'
+        'p3 olrecetas';
+        
+    }
+    .conteinerPaulova{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+        gap: 15px;
+        grid-template-areas: 
+        'p1 p1'
+        'parrafoPaulova photoPaulova'
+        'p2 ulrescetas'
+        'p3 olrecetas';
+        
+    }
+
+    /* index*/
+    .carrucelf{
+        height: 350px;
+        width: auto;
+    }
+
+}

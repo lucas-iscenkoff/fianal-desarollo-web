@@ -1,0 +1,45 @@
+/*html recetas*/
+
+.parrafoPaulova{
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    word-spacing: 5px;
+    font-weight: bolder;
+    margin: 20px 20px;
+    padding: 15px 15px;
+    grid-area: parrafoPaulova;
+}
+
+.p1{
+    grid-area: p1;
+}
+.p2{
+    grid-area: p2;
+}
+.p3{
+    grid-area: p3;
+}
+.photoPaulova{
+    height: 300px;
+    width: auto;
+    grid-area: photoPaulova;
+    display: flex;
+    justify-self: center;
+    box-shadow: 5px 5px 9px 0px;
+
+}
+
+.olrecetas{
+    font-family: 'Salsa', cursive;
+    padding-block: 10px;
+    margin: 20px;
+    padding-left: 50px;
+    grid-area: olrecetas;
+}
+.ulrecetas{
+    font-family: 'Salsa', cursive;
+    padding-block: 10px;
+    margin: 20px;
+    padding-left: 50px;
+    grid-area: ulrescetas;
+}

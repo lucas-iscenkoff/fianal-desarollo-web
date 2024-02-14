@@ -1,0 +1,42 @@
+/*html index */
+
+h1{
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 35px;
+    margin: 20px 20px;
+    padding: 15px 15px;
+}
+h2{
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 25px;
+    margin: 20px 20px;
+    padding: 15px 15px;
+}
+p{    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    word-spacing: 5px;
+    font-weight: bolder;
+    margin: 20px 20px;
+    padding: 15px 15px;
+}
+
+.parrafo{
+    background-image: url(../asset/logo2.png);
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo-re-bei {
+    display: flex;
+    justify-content: center;
+}
+.carrucel{
+    margin: 20px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
