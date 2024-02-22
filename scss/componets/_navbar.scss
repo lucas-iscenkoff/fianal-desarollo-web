@@ -1,6 +1,25 @@
-nav{
-    color: beige;
+$vista-movil: 280px 480px;
+$vista-desktop: 480px 1500px;
+$aplicar-padding: true;
+
+nav {
+  @if $aplicar-padding {
+    @media (min-width: #{nth($vista-movil, 1)}) and (max-width: #{nth($vista-movil, 2)}) {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    @media (min-width: #{nth($vista-desktop, 1)}) and (max-width: #{nth($vista-desktop, 2)}) {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+  }
 }
-nav.a{
-    color: #000;
+
+
+.navImg{
+    width: 50px;
+    height: auto;
+    justify-content: flex-start;
+
 }

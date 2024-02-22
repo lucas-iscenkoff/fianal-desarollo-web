@@ -1,5 +1,4 @@
 
-/* footer*/
 footer{
     justify-content:space-around;
     width: 100%;
@@ -19,12 +18,16 @@ h3{
 .logoinsta{
     width:30px;
     height: auto;
-    background-color: #e4c082;
+    background: $imagenesTranspa;
+
 }
 
 .logoface{
     width: 30px;
     height: auto;
+    background: $imagenesTranspa;
+    
+
 }
 
 

@@ -1,0 +1,13 @@
+$imagen: linear-gradient(1deg, #e4c082a9, #e4c082);
+
+body{
+        background:$imagen, url(../asset/romero.jpg);
+        background-size: 100% 100%;
+        background-color: #e4c082;
+    }
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}

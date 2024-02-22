@@ -43,8 +43,13 @@
     justify-content: center;
 }
 .fotoM{
-    box-shadow: 1px 1px 1px 2px;
+    box-shadow:$imagenSueltas;
 }
+.fotoMM{
+    box-shadow:$imagenSueltas;
+    
+}
+
 .imagenMenu2{
     grid-area:'imagenMenu1';
     display: flex;

@@ -1,14 +1,69 @@
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kaushan+Script&display=swap");
+/*titulos*/
 @import url("https://fonts.googleapis.com/css2?family=Salsa&display=swap");
+/* footer*/
 @import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
-* {
-  padding: 0;
-  margin: 0;
+body {
+  background: linear-gradient(1deg, rgba(228, 192, 130, 0.662745098), #e4c082), url(../asset/romero.jpg);
+  background-size: 100% 100%;
+  background-color: #e4c082;
 }
 
-/*fuente google*/
-/*titulos*/
-/* footer*/
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+@media (min-width: 280px) and (max-width: 480px) {
+  nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+@media (min-width: 480px) and (max-width: 1500px) {
+  nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+.navImg {
+  width: 50px;
+  height: auto;
+  justify-content: flex-start;
+}
+
+footer {
+  justify-content: space-around;
+  width: 100%;
+  padding: 20px 20px;
+  display: flex;
+}
+
+footer a {
+  width: 100%;
+  padding: 20px 20px;
+  text-justify: distribute-all-lines;
+}
+
+h3 {
+  font-size: 10px;
+  font-family: "Tenor Sans", sans-serif;
+  padding: 20px 20px;
+}
+
+.logoinsta {
+  width: 30px;
+  height: auto;
+  background: transparent;
+}
+
+.logoface {
+  width: 30px;
+  height: auto;
+  background: transparent;
+}
+
 /* media */
 @media (min-width: 320px) and (max-width: 480px) {
   .parrafo {
@@ -68,9 +123,66 @@
     width: auto;
   }
 }
-/*bodys*/
-body {
-  background-color: #e4c082;
+/* html contacatos */
+.gestion {
+  text-align: left;
+  font-family: "Kaushan Script", cursive;
+  font-size: 25px;
+  margin: 20px 20px;
+  padding: 15px 15px;
+}
+
+.tcontacato {
+  font-family: "Salsa", cursive;
+  font: size 25px;
+  text-align: left;
+  margin: 30px 30px;
+}
+
+.conteiner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 150px;
+  gap: 15px;
+}
+
+.formu {
+  background-color: #4d4337;
+  background-size: auto;
+  padding-left: 5px;
+  border-radius: 8px;
+  box-sizing: content-box;
+  width: 90%;
+  height: 90%;
+  margin: 30px 30px;
+}
+
+input, textarea, label {
+  display: block;
+  width: 90%;
+  margin-bottom: 5px;
+}
+
+input[type=submit] {
+  cursor: pointer;
+  border: #4d4337;
+  padding: 5px 5px;
+  background-color: #a0a789;
+  color: #e4c082;
+}
+
+.formulario {
+  display: block;
+  margin: 30px;
+  width: 50%;
+  padding: 15px 15px;
+}
+
+.imagen {
+  width: auto;
+  height: 550PX;
+  margin: 25PX 25px;
+  box-shadow: 7px 8px 8px 1px;
 }
 
 /*html index */
@@ -99,20 +211,81 @@ p {
   padding: 15px 15px;
 }
 
-.parrafo {
-  background-image: url(../asset/logo2.png);
-  background-size: 700px;
-  background-repeat: no-repeat;
-  background-position: center;
+.logo-re-bei {
+  display: flex;
+  justify-content: center;
+  background: transparent;
 }
 
-.logo-re-bei {
+.fotologoP {
+  background: linear-gradient(1deg, rgba(228, 192, 130, 0.662745098), #e4c082);
+}
+
+.carrucel {
+  margin: 20px auto;
+  display: grid;
+  justify-content: center;
+  width: min-content;
+  box-shadow: 7px 8px 8px 1px;
+}
+
+/* html propuesta*/
+.parrafo-titu-propuesta {
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+  word-spacing: 5px;
+  font-weight: bolder;
+  margin: 20px 20px;
+  padding: 15px 15px;
+}
+
+.propuesta {
+  display: flex;
+  justify-content: center;
+  margin: 20px 20px;
+}
+
+.propuesta1 {
+  grid-area: "propuesta1";
+}
+
+.propuesta2 {
+  grid-area: "propuesta2";
+}
+
+.titulosPropuestas {
+  text-align: center;
+  font-family: "Kaushan Script", cursive;
+  font-size: 30px;
+  margin: 20px 20px;
+  padding: 15px 15px;
+}
+
+.parrafoPropuesta {
+  font-family: "Indie Flower", cursive;
+  text-align: center;
+  word-spacing: 5px;
+  font-weight: bolder;
+  margin: 20px 20px;
+  padding: 15px 15px;
+}
+
+.imagenMenu1 {
+  grid-area: "imagenMenu1";
   display: flex;
   justify-content: center;
 }
 
-.carrucel {
-  margin: 20px 20px;
+.fotoM {
+  box-shadow: 7px 8px 8px 1px;
+}
+
+.fotoMM {
+  box-shadow: 7px 8px 8px 1px;
+}
+
+.imagenMenu2 {
+  grid-area: "imagenMenu1";
   display: flex;
   justify-content: center;
 }
@@ -180,6 +353,7 @@ p {
   display: flex;
   justify-self: center;
   box-shadow: 5px 5px 9px 0px;
+  box-shadow: 7px 8px 8px 1px;
 }
 
 .olrecetas {
@@ -198,154 +372,4 @@ p {
   grid-area: ulrescetas;
 }
 
-/* html contacatos */
-.gestion {
-  text-align: left;
-  font-family: "Kaushan Script", cursive;
-  font-size: 25px;
-  margin: 20px 20px;
-  padding: 15px 15px;
-}
-
-.tcontacato {
-  font-family: "Salsa", cursive;
-  font: size 25px;
-  text-align: left;
-  margin: 30px 30px;
-}
-
-.conteiner {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 200px;
-  gap: 15px;
-}
-
-.formu {
-  background-color: #4d4337;
-  background-size: auto;
-  padding-left: 5px;
-  border-radius: 8px;
-  box-sizing: content-box;
-  width: 90%;
-  height: 90%;
-  margin: 30px 30px;
-}
-
-input, textarea, label {
-  display: block;
-  width: 90%;
-  margin-bottom: 5px;
-}
-
-input[type=submit] {
-  cursor: pointer;
-  border: #4d4337;
-  padding: 5px 5px;
-  background-color: #a0a789;
-  color: #e4c082;
-}
-
-.formulario {
-  display: block;
-  margin: 30px;
-  width: 50%;
-  padding: 15px 15px;
-}
-
-.imagen {
-  width: auto;
-  height: 550PX;
-  padding: 25PX 25px;
-}
-
-/* html propuesta*/
-.parrafo-titu-propuesta {
-  font-family: "Indie Flower", cursive;
-  text-align: center;
-  word-spacing: 5px;
-  font-weight: bolder;
-  margin: 20px 20px;
-  padding: 15px 15px;
-}
-
-.propuesta {
-  display: flex;
-  justify-content: center;
-  margin: 20px 20px;
-}
-
-.propuesta1 {
-  grid-area: "propuesta1";
-}
-
-.propuesta2 {
-  grid-area: "propuesta2";
-}
-
-.titulosPropuestas {
-  text-align: center;
-  font-family: "Kaushan Script", cursive;
-  font-size: 30px;
-  margin: 20px 20px;
-  padding: 15px 15px;
-}
-
-.parrafoPropuesta {
-  font-family: "Indie Flower", cursive;
-  text-align: center;
-  word-spacing: 5px;
-  font-weight: bolder;
-  margin: 20px 20px;
-  padding: 15px 15px;
-}
-
-.imagenMenu1 {
-  grid-area: "imagenMenu1";
-  display: flex;
-  justify-content: center;
-}
-
-.fotoM {
-  box-shadow: 1px 1px 1px 2px;
-}
-
-.imagenMenu2 {
-  grid-area: "imagenMenu1";
-  display: flex;
-  justify-content: center;
-}
-
-/* footer*/
-footer {
-  justify-content: space-around;
-  width: 100%;
-  padding: 20px 20px;
-  display: flex;
-}
-
-footer a {
-  width: 100%;
-  padding: 20px 20px;
-  text-justify: distribute-all-lines;
-}
-
-h3 {
-  font-size: 10px;
-  font-family: "Tenor Sans", sans-serif;
-  padding: 20px 20px;
-}
-
-.logoinsta {
-  width: 30px;
-  height: auto;
-  background-color: #e4c082;
-}
-
-.logoface {
-  width: 30px;
-  height: auto;
-}
-
-
-
+/*# sourceMappingURL=style.css.map */

@@ -18,7 +18,7 @@
 .conteiner{
     display:grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 200px;
+    grid-template-rows: 150px;
     gap: 15px;
 }
 
@@ -56,5 +56,6 @@ input[type="submit"] {
 .imagen{
     width:auto;
     height: 550PX;
-    padding: 25PX 25px;
+    margin: 25PX 25px;
+    box-shadow:$imagenSueltas;
 }
