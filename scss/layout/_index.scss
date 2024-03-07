@@ -30,6 +30,19 @@ p{
 }
 .fotologoP{
     background: $imagen;
+    opacity: 0;
+    animation: fadeInOut 30s infinite alternate;
+    @keyframes fadeInOut {
+        0% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
 }
 .carrucel{
     margin: 20px auto;
@@ -38,5 +51,6 @@ p{
     width: min-content;
     box-shadow:$imagenSueltas;
 }
+
 
 

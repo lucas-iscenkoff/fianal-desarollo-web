@@ -87,11 +87,6 @@ h3 {
     gap: 15px;
     grid-template-areas: "p1" "parrafoPaulova" "photoPaulova" "p2" "ulrescetas" "p3" "olrecetas";
   }
-  /* index*/
-  .carrucelf {
-    height: auto;
-    width: 99%;
-  }
 }
 @media (min-width: 481px) and (max-width: 1480px) {
   .contentPropuesta {
@@ -117,7 +112,14 @@ h3 {
     gap: 15px;
     grid-template-areas: "p1 p1" "parrafoPaulova photoPaulova" "p2 ulrescetas" "p3 olrecetas";
   }
-  /* index*/
+}
+@media (min-width: 320px) and (max-width: 680px) {
+  .carrucelf {
+    height: auto;
+    width: 350px;
+  }
+}
+@media (min-width: 681px) and (max-width: 1480px) {
   .carrucelf {
     height: 350px;
     width: auto;
@@ -219,6 +221,19 @@ p {
 
 .fotologoP {
   background: linear-gradient(1deg, rgba(228, 192, 130, 0.662745098), #e4c082);
+  opacity: 0;
+  animation: fadeInOut 30s infinite alternate;
+}
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 .carrucel {

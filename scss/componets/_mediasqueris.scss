@@ -35,11 +35,7 @@
         
     }
     
-    /* index*/
-    .carrucelf{
-        height: auto;
-        width: 99%;
-    }
+
 }
 
 @media (min-width: 481px) and (max-width: 1480px){
@@ -79,10 +75,20 @@
         
     }
 
-    /* index*/
-    .carrucelf{
-        height: 350px;
-        width: auto;
-    }
+
 
 }
+@media (min-width: 320px) and (max-width: 680px){
+    .carrucelf{
+    height: auto;
+    width: 350px;
+    }
+}
+
+
+@media (min-width: 681px) and (max-width: 1480px){
+        .carrucelf{
+            height: 350px;
+            width: auto;
+        }
+    }
